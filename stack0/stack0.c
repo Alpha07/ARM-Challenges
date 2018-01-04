@@ -1,15 +1,6 @@
 
 // stack0.c
-// Created by Snebot26
-
-/*
- * compile iOS: $(xcrun --sdk iphoneos --find clang) -isysroot $(xcrun --sdk iphoneos --show-sdk-path) --target=<target> -fno-stack-protector stack0.c -o <build path>/stack0
- * Examples for <target> -> armv7-apple-darwin11, arm64-apple-darwin
- */
-
-/*
- * compile on Raspberry Pi: gcc stack0.c -fno-stack-protector -o stack0
- */
+// Created by h0strix
 
 #include <stdio.h>
 
